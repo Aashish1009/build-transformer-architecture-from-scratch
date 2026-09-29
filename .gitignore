@@ -1,10 +1,63 @@
-# Python-generated files
+# ===== Python =====
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+*.so
+.Python
 build/
+develop-eggs/
 dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
 wheels/
-*.egg-info
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Virtual environments
-.venv
+# ===== Virtual environments =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Project-specific: model weights & checkpoints =====
+*.pt
+*.pth
+*_weights/
+weights/
+
+# ===== Project-specific: tokenizers =====
+tokenizer_*.json
+
+# ===== TensorBoard logs =====
+runs/
+
+# ===== Hugging Face datasets cache =====
+.cache/
+**/datasets_cache/
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== Environment variables =====
+.env
+
+# ===== Logs =====
+*.log
